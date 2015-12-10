@@ -1,0 +1,31 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "noImplicitAny": true,
+    "outDir": "./lib",
+    "preserveConstEnums": true,
+    "removeComments": true
+  },
+  "filesGlob": [
+    "./typings/*.d.ts",
+    "./localtypings/*.d.ts",
+    "src/**/*.ts"
+  ],
+  "files": [
+    "typings\\tsd.d.ts",
+    "localtypings\\tsd.d.ts",
+    "src\\app.ts",
+    "src\\Application.ts",
+    "src\\ioc.config.ts",
+    "src\\app\\AppBar.ts",
+    "src\\app\\AppConfig.ts",
+    "src\\app\\AppFoo.ts",
+    "src\\app\\AppFooBar.ts",
+    "src\\app\\AppRouter.ts",
+    "src\\app\\ldap.ts",
+    "src\\core\\interfaces.ts",
+    "src\\routes\\index.ts"
+  ]
+}
