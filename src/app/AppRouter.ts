@@ -23,7 +23,7 @@ export class AppRouter implements I.IRouter {
 		}
 		setRoutes(): void {
 			this.routes.forEach(r => {
-				this.server.get(r.name, r.route);
+				this.server.use(r.name, r.route);
 			});
 		}
 }
